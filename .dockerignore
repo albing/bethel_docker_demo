@@ -1,0 +1,8 @@
+# This is a list of files that, when changed, docker will ignore for the
+# purposes of rebuilding, and which will not be included in a
+# `COPY . .` command
+
+Dockerfile
+Makefile
+.gitignore
+.dockerignore
